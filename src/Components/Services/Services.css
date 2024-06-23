@@ -1,0 +1,70 @@
+.services{
+  padding: 0.3rem 0.3rem;
+  height: 90vh;
+  margin-top: 7rem;
+}
+.awasome1{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.awasome1>:nth-child(1){
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awasome1>:nth-child(2){
+  color: orange;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awasome1>:nth-child(3){
+  color: gray;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.s-btn{
+  width: 8.5rem;
+  height: 2.2rem;
+  margin-top: 1.5rem;
+}
+
+.cards{
+  position: relative;
+}
+.cards>*{
+  position:absolute ;
+}
+
+@media screen and (max-width:400px) {
+  .services{
+    margin-top: 135px;
+  }
+  .s-btn{
+    width: 8.5rem;
+    height: 2.2rem;
+    margin-top: 1.5rem;
+  }
+  .cards{
+    position: relative;
+  }
+  .cards>*{
+    position:absolute ;
+  }
+  .awasome1>:nth-child(1){  
+    font-size: 2.5rem;
+    margin-left: 15px;
+  }
+  .awasome1>:nth-child(2){
+    font-size: 3rem;
+    margin-left: 40px;
+  }
+  .awasome1>:nth-child(3){
+    text-align: center;
+  }
+  .s-btn{
+    margin-left: 78px;
+  }
+}
+

@@ -1,0 +1,30 @@
+.card1 {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 2px solid orange;
+  box-shadow: var(--boxShadow);
+  border-radius: 46px;
+  padding: 0px 26px 2rem 26px;
+  top: 15px;
+}
+.card1 span:nth-of-type(2) {
+  color: grey;
+  font-size: 17px;
+}
+.card1 > img {
+  transform: scale(0.6);
+  margin-bottom: -1rem;
+}
+@media screen and (max-width:400px) {
+  .card1 {
+    top: -470px;
+    width: 17rem;
+    position: absolute;
+    text-align: center;
+  }
+}
+

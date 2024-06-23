@@ -1,0 +1,43 @@
+.bgc{
+  background-color: bisque;
+}
+.exper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 90vh;
+}
+.exper > :nth-child(1) {
+  color: orange;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.exper > :nth-child(2) {
+  color: gray;
+  font-size: 17px;
+  margin-top: 12px;
+}
+div > .e-img {
+  height: 150px;
+  width: 150px;
+  padding: 20px 20px 20px 20px;
+  background-color: #f5f6fa;
+  border-radius: 50%;
+  line-height: 113px;
+  text-align: center;
+  margin-left: 90px;
+}
+.e-img{
+  border: 2px solid orange;
+}
+
+
+@media screen and (max-width:400px) {
+  .exper {
+    margin-bottom: 145px;
+  }
+  div > .e-img {
+    margin-left: 0px;
+  }
+}
+
