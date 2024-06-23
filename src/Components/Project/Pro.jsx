@@ -8,7 +8,6 @@ const Pro = (props) => {
         <div className="card my-3">
           <img
             src={props.imgsrc}
-            className="card-img-top"
             alt={props.imgsrc}
             height={190}
           />
