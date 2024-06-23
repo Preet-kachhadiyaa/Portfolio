@@ -11,7 +11,7 @@ const ProData = [
   {
     imgsrc:Fashion,
     title:"Fashion Spotter",
-    text:"This Web-Site Is Made From Html,Css,Bootstrap,Ajax,Jquery.  It Is My Collage Project etc..",
+    text:"This Web-Site Is Made From Html,Css,Bootstrap,Jquery.It's My Collage Project etc.",
   },
   {
     imgsrc:Uddan,

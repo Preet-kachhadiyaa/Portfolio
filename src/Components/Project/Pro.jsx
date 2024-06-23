@@ -10,7 +10,7 @@ const Pro = (props) => {
             src={props.imgsrc}
             className="card-img-top"
             alt={props.imgsrc}
-            height={178}
+            height={190}
           />
           <div className="card-body">
             <h5 className="card-title">{props.title}</h5>
