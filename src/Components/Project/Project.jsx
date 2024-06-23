@@ -6,10 +6,10 @@ import ProData from "./ProData";
 const Project = () => {
   return (
     <>
-      <div className="container-fluid" >
+      <div className="container-fluid">
         <div className="row pro">
           <div className="col-11 mx-auto" id="Project">
-            <div className="project" >
+            <div className="project">
               <div className="awasome">
                 <span>Projects</span>
                 <span>

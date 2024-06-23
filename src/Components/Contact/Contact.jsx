@@ -29,16 +29,16 @@ const Contact = () => {
       <div className="container-fluid" id="Contact">
         <div className="row my-5">
           <div className="col-11 mx-auto">
-            <div className="row" >
+            <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
-                <div className="contact" >
+                <div className="contact">
                   <span>Get In Touch</span>
                   <span>Contact Me</span>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-12">
                 <form ref={form} onSubmit={sendEmail}>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <input
                       type="text"
                       className="form-control"
@@ -48,7 +48,7 @@ const Contact = () => {
                       autoComplete="off"
                     />
                   </div>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <input
                       type="email"
                       className="form-control"
@@ -58,7 +58,7 @@ const Contact = () => {
                       autoComplete="off"
                     />
                   </div>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <textarea
                       className="form-control"
                       id="exampleFormControlTextarea1"
