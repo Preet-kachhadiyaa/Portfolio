@@ -1,4 +1,10 @@
+@font-face {
+  font-family: Gumela;
+  src: url('./src//fonts/Gumela\ Regular.otf');
+}
 * {
+  font-family: 'Gumela';
+  font-weight: normal;
   scroll-behavior: smooth;
 }
 :root {
