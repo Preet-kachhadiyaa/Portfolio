@@ -39,5 +39,11 @@ div > .e-img {
   div > .e-img {
     margin-left: 0px;
   }
+  .exper > :nth-child(1) {
+    margin-left: 35px;
+  }
+  .exper > :nth-child(2) {
+    margin-left: 20px;
+  }
 }
 

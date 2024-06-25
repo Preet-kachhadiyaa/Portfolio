@@ -25,8 +25,8 @@
 }
 
 .s-btn{
-  width: 8.5rem;
-  height: 2.2rem;
+  width: 11.5rem;
+  height: 3.2rem;
   margin-top: 1.5rem;
 }
 
@@ -42,9 +42,9 @@
     margin-top: 135px;
   }
   .s-btn{
-    width: 8.5rem;
-    height: 2.2rem;
-    margin-top: 1.5rem;
+    margin-left: 57px;
+    width: 195px;
+    height: 55px;
   }
   .cards{
     position: relative;
@@ -54,17 +54,14 @@
   }
   .awasome1>:nth-child(1){  
     font-size: 2.5rem;
-    margin-left: 15px;
+    margin-left: 55px;
   }
   .awasome1>:nth-child(2){
     font-size: 3rem;
-    margin-left: 40px;
+    margin-left: 60px;
   }
   .awasome1>:nth-child(3){
     text-align: center;
-  }
-  .s-btn{
-    margin-left: 78px;
   }
 }
 

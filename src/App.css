@@ -1,11 +1,9 @@
-@font-face {
-  font-family: Gumela;
-  src: url('./src//fonts/Gumela\ Regular.otf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 * {
-  font-family: 'Gumela';
+  font-family: "Inconsolata", monospace;;
   font-weight: normal;
   scroll-behavior: smooth;
+  font-display: swap;
 }
 :root {
   --yellow: #f5c32c;

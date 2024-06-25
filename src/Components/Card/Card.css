@@ -21,6 +21,7 @@
 }
 @media screen and (max-width:400px) {
   .card1 {
+    left: 30px;
     top: -470px;
     width: 17rem;
     position: absolute;

@@ -32,4 +32,10 @@ form{
   form{
     margin-top: 50px;
   }
+  .contact>:nth-child(1){
+    margin-left: 30px;
+  }
+  .contact>:nth-child(2){
+    margin-left: 45px;
+  }
 }
