@@ -15,7 +15,7 @@ const Pro = (props) => {
             <h5 className="card-title">{props.title}</h5>
             <hr className="w-25 mx-auto border-dark" />
             <p className="card-text">{props.text}</p>
-            <a href="#" className="button p-btn">
+            <a href={props.link} className="button p-btn">
               Sorce Code
             </a>
           </div>

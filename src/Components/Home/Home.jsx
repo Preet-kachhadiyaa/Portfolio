@@ -1,11 +1,17 @@
 import React from "react";
 import "./Home.css";
+import { saveAs } from "file-saver";
 import Github from "../../img/github.png";
 import Linkedin from "../../img/linkedin.png";
 import Insta from "../../img/instagram.png";
 import Boy from "../../img/boy.png";
 
 const Home = () => {
+  const DownloadPdf = async () => {
+    const response = await fetch("/public/Preet Resume.pdf");
+    const blob = await response.blob();
+    saveAs(blob, "Preet-Kachhadiya.pdf");
+  };
   return (
     <>
       <section id="header">
@@ -22,11 +28,19 @@ const Home = () => {
                       Web-Desiging And Devlopment,Producing The Qulity Work.
                     </span>
                   </div>
-                  <button className="button h-btn">Hire Me.!</button>
+                  <button className="button h-btn" onClick={DownloadPdf}>
+                    Hire Me.!
+                  </button>
                   <div className="h-icons">
-                    <img src={Github} alt="" />
-                    <img src={Linkedin} alt="" />
-                    <img src={Insta} alt="" />
+                    <a href="https://github.com/Preet-kachhadiyaa">
+                      <img src={Github} alt="" />
+                    </a>
+                    <a href="https://www.facebook.com/preet.prit.12">
+                      <img src={Linkedin} alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/_mr.preet.090/">
+                      <img src={Insta} alt="" />
+                    </a>
                   </div>
                 </div>
 

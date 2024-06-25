@@ -1,9 +1,15 @@
 import React from "react";
 import "./Services.css";
+import { saveAs } from "file-saver";
 import Glasses from "../../img/glasses.png";
 import Card from "../Card/Card";
 
 const Services = () => {
+  const DownloadPdf = async () => {
+    const response = await fetch("/public/Preet Resume.pdf");
+    const blob = await response.blob();
+    saveAs(blob, "Preet-Kachhadiya.pdf");
+  };
   return (
     <>
       <div className="container-fluid">
@@ -19,7 +25,7 @@ const Services = () => {
                       I Provide Many Servies To User,For User Convinent <br />
                       Some Services Are There....
                     </span>
-                    <button className="button s-btn">Download C.V</button>
+                    <button className="button s-btn" onClick={DownloadPdf}>Download C.V</button>
                     <div
                       className="blur s-blur"
                       style={{ background: "#ABF1FF94" }}

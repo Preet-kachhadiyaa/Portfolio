@@ -13,9 +13,9 @@ const Footer = () => {
         <div className="f-content">
           <span>Preetk02700270@gmail.com</span>
           <div className="f-icons">
-            <Insta color="white" size="3rem" />
-            <Facebook color="white" size="3rem" />
-            <Github color="white" size="3rem" />
+            <a href="https://github.com/Preet-kachhadiyaa"><Github color="white" size="3rem" /></a>
+            <a href="https://www.facebook.com/preet.prit.12"><Facebook color="white" size="3rem" /></a>
+            <a href="https://www.instagram.com/_mr.preet.090/"><Insta color="white" size="3rem" /></a>
           </div>
         </div>
       </div>

@@ -26,6 +26,7 @@ const Project = () => {
                     imgsrc={val.imgsrc}
                     title={val.title}
                     text={val.text}
+                    link={val.link}
                   />
                 );
               })}
